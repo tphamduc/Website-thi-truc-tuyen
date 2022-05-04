@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kết quả học tập</title>
+	<link rel="stylesheet" type="text/css" href="score.css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<?php
+	session_start();
+	include 'KetNoi.php';
+	 ?>
+</head>
+<body>
+	<div class="menu">
+			<ul>
+				<li><a href="index.php">Trang chủ</a></li>
+				<li><a href=" cart.php">Giỏ hàng</a></li>
+				<li><a href="my_lecture.php">Các khóa học của tôi</a></li>
+				<input type="submit" name="out" value="Đăng xuất">
+			</ul>
+	</div>
+
+</body>
+</html>

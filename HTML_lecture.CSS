@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.menu ul{
+	background: #1F568B;
+  	list-style-type: none;
+  	text-align: right;
+}
+.menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 30px;
+}
+.menu a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+.container{
+  width: 100%;
+  display: flex;
+}
+.container .left{
+  width: 70%;
+  margin-top: 40px;
+  min-height: 94vh;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQsXk5VE17VeZ-Xew_dtrN4vxtpi_o7SVSvQ&usqp=CAU);
+}
+.container .left h3{
+  margin-left: 15%;
+}
+.container .left input{
+  margin-left: 15%;
+}
+.container .right{
+  width: 30%;
+  position: fixed;
+  top: 40px;
+  right: 0;
+  background-color: #5454bf;
+  min-height: 94vh;
+}
+.container .left .noti h2{
+  text-align: center;
+  margin-top: 30%;
+  color: #FF7F3F;
+}
+.container .right h1{
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.container .right input{
+  width: 70%;
+  height: 30px;
+  margin-left: 15%;
+  margin-top: 30px;
+} 
+.container .right .noti h4{
+  color: white;
+  text-align:center;
+  margin-top:30px;
